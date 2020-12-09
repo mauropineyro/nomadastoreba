@@ -1,0 +1,152 @@
+.container {
+  max-width: 960px;
+}
+
+header {
+
+  margin-top: 25px;
+
+}
+
+
+
+
+.site-header {
+  background-color: #fff;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+  color: black;
+  transition: ease-in-out color .15s;
+}
+
+.site-header a:hover {
+  color: #F8D8B9;
+  text-decoration: none;
+}
+
+body {
+  background: white;
+}
+
+
+.navbar-toggler {
+  background-color: #F8D8B9;
+}
+
+nav li {
+  display: inline;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav li ul {
+  display: none;
+  position: absolute;
+  background-color: #F8D8B9;
+  list-style: none;
+
+}
+
+nav li:hover ul {
+  display: block;
+
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color:#F8D8B9;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #346fee;
+  color: white;
+}
+
+/* Isntagram */
+.fa-instagram {
+  background: #e44582;
+  color: white;
+}
+
+h2 {
+  color: black;
+}
+
+/* Style all font awesome icons */
+/*
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+
+.flex-equal>* {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal>* {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}

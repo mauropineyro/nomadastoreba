@@ -1,0 +1,53 @@
+body{
+    background-color:white ;
+  }
+  .navbar-toggler {
+    background-color: #F8D8B9;
+  }
+  
+  nav li {
+    display: inline;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  
+  nav li ul {
+    display: none;
+    position: absolute;
+    background-color:#F8D8B9 ;
+    list-style: none;
+    
+  }
+  
+  nav li:hover ul {
+    display: block;
+    
+  }
+  
+  
+  header {
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    margin-bottom:15px;
+  }
+  
+  main{
+    
+   
+    background-color:#F8D8B9;
+  }
+ 
+  main section{
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    background-color: white;
+    
+  
+  }
+  
+  

@@ -1,0 +1,47 @@
+body{
+  background-color:white ;
+}
+.navbar-toggler {
+  background-color: #F8D8B9;
+}
+
+nav li {
+  display: inline;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+nav li ul {
+  display: none;
+  position: absolute;
+  background-color:#F8D8B9 ;
+  list-style: none;
+  
+}
+
+nav li:hover ul {
+  display: block;
+  
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color:white;
+}
+
+main{
+  background-color: #F8D8B9;
+  margin-bottom: 20px;
+}
+
+button{
+  margin-bottom: 40px;
+}
+
+
+
+
