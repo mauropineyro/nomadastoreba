@@ -2,6 +2,10 @@ body {
   background-color: white;
 }
 
+nav {
+  background-color: #F8D8B9;
+}
+
 .navbar .nav-item:not(:last-child) {
   margin-right: 35px;
 
@@ -20,8 +24,6 @@ body {
 
 }
 
-
-
 header {
   display: flex;
   justify-content: center;
@@ -31,8 +33,12 @@ header {
 
 main {
 
+  background-color: white;
+}
 
-  background-color: #F8D8B9;
+.medidas {
+  display: flex;
+  justify-content: end;
 }
 
 main section {
@@ -40,7 +46,6 @@ main section {
 }
 
 footer {
-  background-color: white;
-
+  background-color: #F8D8B9;
 
 }

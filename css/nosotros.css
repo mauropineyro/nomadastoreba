@@ -2,19 +2,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .cuerpo {
-  background-color: #F8D8B9;
+  background-color: white;
   margin-bottom: 40px;
 }
 
 .cuerpo__parrafo {
-  background-color: #F8D8B9;
+  background-color: white;
   margin-bottom: 80px;
 }
 
-
+nav {
+  background-color: #F8D8B9;
+}
 .navbar .nav-item:not(:last-child) {
   margin-right: 35px;
 
@@ -32,9 +35,6 @@
   margin-top: 0;
 
 }
-
-
-
 
 h4 {
   color: rgb(71, 71, 71)
@@ -66,4 +66,9 @@ h4 {
 .fa-instagram {
   background: #e44582;
   color: white;
+}
+
+footer {
+  background-color: #F8D8B9
+
 }
