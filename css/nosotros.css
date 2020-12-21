@@ -1,50 +1,69 @@
-
-
 .principal__titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cuerpo{
-    background-color:#F8D8B9 ;
-    margin-bottom: 40px;
+.cuerpo {
+  background-color: #F8D8B9;
+  margin-bottom: 40px;
 }
+
 .cuerpo__parrafo {
-    background-color:#F8D8B9 ;
-    margin-bottom: 80px;
+  background-color: #F8D8B9;
+  margin-bottom: 80px;
 }
 
-h4{
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+
+}
+
+
+
+
+h4 {
   color: rgb(71, 71, 71)
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-      
-    background: #346fee;
-    color: white;
-  }
-  
-  /* Isntagram */
-  .fa-instagram {
-    background: #e44582;
-    color: white;
-  }
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
 
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+
+  background: #346fee;
+  color: white;
+}
+
+/* Isntagram */
+.fa-instagram {
+  background: #e44582;
+  color: white;
+}

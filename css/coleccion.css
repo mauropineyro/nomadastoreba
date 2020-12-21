@@ -1,15 +1,9 @@
-.container {
-  max-width: 960px;
-}
 
 header {
 
   margin-top: 25px;
 
 }
-
-
-
 
 .site-header {
   background-color: #fff;
@@ -31,30 +25,25 @@ body {
   background: white;
 }
 
-
-.navbar-toggler {
-  background-color: #F8D8B9;
-}
-
-nav li {
-  display: inline;
-  justify-content: space-around;
-  list-style: none;
-  text-decoration: none;
-}
-
-nav li ul {
-  display: none;
-  position: absolute;
-  background-color: #F8D8B9;
-  list-style: none;
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
 
 }
 
-nav li:hover ul {
-  display: block;
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
 
 }
+
+
 
 .container {
   margin-bottom: 20px;

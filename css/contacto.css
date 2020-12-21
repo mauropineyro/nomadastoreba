@@ -1,47 +1,46 @@
-body{
-  background-color:white ;
-}
-.navbar-toggler {
-  background-color: #F8D8B9;
+body {
+  background-color: white;
 }
 
-nav li {
-  display: inline;
-  justify-content: space-around;
-  list-style: none;
-  text-decoration: none;
-  
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+
 }
 
-nav li ul {
-  display: none;
-  position: absolute;
-  background-color:#F8D8B9 ;
-  list-style: none;
-  
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
 }
 
-nav li:hover ul {
-  display: block;
-  
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+
 }
 
 
 header {
   display: flex;
   justify-content: center;
-  background-color:white;
+  background-color: white;
 }
 
-main{
+main {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main div form {
   background-color: #F8D8B9;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
-button{
+button {
   margin-bottom: 40px;
 }
-
-
-
-
