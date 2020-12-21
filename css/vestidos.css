@@ -6,7 +6,9 @@ body {
     background: white;
 }
 
-
+nav{
+    background-color: #F8D8B9
+}
 
 .navbar .nav-item:not(:last-child) {
     margin-right: 35px;
@@ -64,6 +66,8 @@ footer {
 h2 {
     color: black;
 }
+
+
 
 .product-device {
     position: absolute;
