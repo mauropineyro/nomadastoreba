@@ -59,6 +59,15 @@ main img{
     margin-bottom: 10px;
 }
 
+.container{
+    margin-top: 25px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+
 footer {
     background-color: #F8D8B9;
 }

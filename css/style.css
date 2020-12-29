@@ -30,6 +30,13 @@ header {
   height: 80%;
 }
 
+.container{
+  margin-top: 25px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
 
 
 footer {

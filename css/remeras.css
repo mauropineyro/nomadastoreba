@@ -65,6 +65,15 @@ h2 {
     color: black;
 }
 
+.container{
+    margin-top: 25px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+
 .product-device {
     position: absolute;
     right: 10%;
