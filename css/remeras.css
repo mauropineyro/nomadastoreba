@@ -6,6 +6,9 @@ body {
     background: white;
 }
 
+nav{
+    background-color: #F8D8B9
+}
 
 .navbar .nav-item:not(:last-child) {
     margin-right: 35px;
@@ -25,7 +28,6 @@ body {
   
   }
   
-
 
 header {
     margin-top: 25px;
@@ -49,20 +51,12 @@ header h1 {
 }
 
 .site-header a:hover {
-    color: #F8D8B9;
+    color: #9b9084;
     text-decoration: none;
 }
 
 main img{
     margin-bottom: 10px;
-}
-
-footer {
-    background-color: #F8D8B9;
-}
-
-h2 {
-    color: black;
 }
 
 .container{
@@ -73,6 +67,16 @@ h2 {
     margin-bottom: 20px;
   }
   
+
+footer {
+    background-color: #F8D8B9;
+}
+
+h2 {
+    color: black;
+}
+
+
 
 .product-device {
     position: absolute;

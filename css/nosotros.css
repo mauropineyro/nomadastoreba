@@ -6,21 +6,29 @@
 }
 
 .cuerpo {
-  background-color: white;
+  background-color: #F8D8B9;
   margin-bottom: 40px;
 }
 
 .cuerpo__parrafo {
-  background-color: white;
-  margin-bottom: 80px;
+  background-color: #F8D8B9;
+  margin-top: 30px;
+  margin-bottom: 170px;
 }
 
+
+
 nav {
-  background-color: #F8D8B9;
+  background-color: white;
 }
+
 .navbar .nav-item:not(:last-child) {
   margin-right: 35px;
 
+}
+
+.navbar-toggler {
+  background-color: #F8D8B9;
 }
 
 .dropdown-toggle::after {
@@ -33,8 +41,9 @@ nav {
 
 .dropdown-menu {
   margin-top: 0;
-
+  background-color: #e9e9e9;
 }
+
 
 h4 {
   color: rgb(71, 71, 71)
@@ -69,6 +78,6 @@ h4 {
 }
 
 footer {
-  background-color: #F8D8B9
+  background-color: white;
 
 }

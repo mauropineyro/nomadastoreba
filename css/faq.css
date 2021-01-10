@@ -11,6 +11,10 @@ nav {
 
 }
 
+.navbar-toggler{
+  background-color: #F8D8B9;
+}
+
 .dropdown-toggle::after {
   transition: transform 0.15s linear;
 }
@@ -21,8 +25,9 @@ nav {
 
 .dropdown-menu {
   margin-top: 0;
-
+  background-color: #e9e9e9;
 }
+
 
 header {
   display: flex;

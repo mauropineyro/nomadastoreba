@@ -1,4 +1,3 @@
-
 header {
 
   margin-top: 25px;
@@ -30,6 +29,10 @@ body {
 
 }
 
+.navbar-toggler{
+  background-color: #F8D8B9;
+}
+
 .dropdown-toggle::after {
   transition: transform 0.15s linear;
 }
@@ -40,8 +43,9 @@ body {
 
 .dropdown-menu {
   margin-top: 0;
-
+  background-color: #e9e9e9;
 }
+
 
 
 
@@ -54,7 +58,7 @@ body {
 }
 
 footer {
-  background-color:#F8D8B9;
+  background-color: #F8D8B9;
 }
 
 /* Style all font awesome icons */
